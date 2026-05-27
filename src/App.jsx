@@ -38,7 +38,7 @@ function App() {
         </div>
 
          <div>
-          <button onClick={()=>setColor("voilet")} className='text-white shadow-2xl w-full px-3 py-2 sm:px-5 sm:py-2.5 md:px-6 md:py-3 rounded-full font-semibold text-xs sm:text-sm md:text-base tracking-wide bg-violet-500 hover:bg-violet-400 hover:scale-110 hover:shadow-violet-500/50 hover:shadow-lg active:scale-95 transition-all duration-300 cursor-pointer'>Voilet</button>
+          <button onClick={()=>setColor("gray")} className='text-white shadow-2xl w-full px-3 py-2 sm:px-5 sm:py-2.5 md:px-6 md:py-3 rounded-full font-semibold text-xs sm:text-sm md:text-base tracking-wide bg-gray-500 hover:bg-gray-500 hover:scale-110 hover:shadow-violet-500/50 hover:shadow-lg active:scale-95 transition-all duration-300 cursor-pointer'>Grey</button>
         </div>
 
          <div className='col-span-3 sm:col-span-4 md:col-auto flex justify-center'>
